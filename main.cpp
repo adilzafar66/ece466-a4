@@ -4,9 +4,6 @@
 #include "filter.h"
 #include "mon.h"
 
-using namespace sc_core;
-using namespace sc_dt;
-
 int sc_main(int argc, char* argv[])
 {
   sc_signal <sc_fixed <16, 3, SC_TRN, SC_WRAP>> x, y;
